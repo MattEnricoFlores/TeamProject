@@ -104,6 +104,7 @@ h1 {
 }
 
 
+
 .fishes{
   position: absolute;
       top: -550px;
@@ -133,4 +134,20 @@ body {
 	max-width: 2300px; 
 	margin: 0 auto !important; 
 	float: none !important; 
+}
+p {
+  color: #C5C6C7;
+}
+
+.navbar-nav {
+  text-align: right;
+}
+
+body {
+  background-color: #0b0c10 !important;
+}
+
+h2 {
+  color: #C5C6C7 !important;
+
 }
