@@ -103,6 +103,34 @@ h1 {
   color: #66FCF1;
 }
 
-p {
-  color: #C5C6C7;
+
+.fishes{
+  position: absolute;
+      top: -550px;
+      left: 4px;
+      
+
+}
+.fish{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.card-title{
+  font-family: 'Marsden Compressed';
+  src: local('Marsden Compressed Condensed Heavy'), local('Marsden-Compressed-Condensed-Heavy'),
+      url('Marsden-Cn-Heavy/Marsden-Cn-Heavy.ttf') format('woff2'),
+      url('Marsden-Cn-Heavy/Marsden-Cn-Heavy.woff') format('woff'),
+      url('Marsden-Cn-Heavy/Marsden-Cn-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  color: black;
+  font-size: 40px;
+  text-align: center;
+}
+body { 
+	max-width: 2300px; 
+	margin: 0 auto !important; 
+	float: none !important; 
 }
