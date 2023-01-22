@@ -106,3 +106,7 @@ h1 {
 p {
   color: #C5C6C7;
 }
+
+.navbar-nav {
+  text-align: right;
+}
