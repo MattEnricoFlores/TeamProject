@@ -63,7 +63,11 @@ nav{
   transition: 0.4s;
 }
 
-
+#navbar a:hover {
+  text-decoration: underline;
+  text-decoration-color: #45a29e;
+  text-decoration-thickness: 3px;
+}
 
 #navbar a.active {
   
