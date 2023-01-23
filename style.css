@@ -31,6 +31,10 @@ nav{
   left: 0;
 }
 
+.background-tint {
+  background-color: rgba(0,0,0,.5);
+  background-blend-mode: multiply;
+}
 
 .only-for-me img{
   width: 200px;
@@ -169,4 +173,7 @@ h2 {
 .tag.visible {
   opacity: 1;
   transform: translate(0, 0);
+.container img {
+  height: auto;
+  width: 10vw;
 }
