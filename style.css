@@ -161,3 +161,7 @@ h2 {
 
 }
 
+.container img {
+  height: auto;
+  width: 10vw;
+}
