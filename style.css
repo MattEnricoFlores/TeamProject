@@ -109,7 +109,7 @@ h1 {
   position: absolute;
       top: -550px;
       left: 4px;
-      
+      --animate-duration: 0.75s;
 
 }
 .fish{
@@ -151,3 +151,4 @@ h2 {
   color: #C5C6C7 !important;
 
 }
+
