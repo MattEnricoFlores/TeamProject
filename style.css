@@ -102,6 +102,7 @@ nav{
   margin: 200px auto;
   padding: 20px 0px 20px 0px;
 }
+
 div.navbar-nav {
   padding: 40px 10px;
   float: none;
@@ -198,3 +199,4 @@ h2 {
   margin-top: -400px;
   animation-duration: 500ms;
 }
+
