@@ -186,7 +186,7 @@ h2 {
   
 }
 .fish5{
-  margin-left:  800px;
+  margin-left:  400px;
   margin-top: -630px;
   position: absolute;
   animation-duration: 1000ms;
@@ -195,6 +195,6 @@ h2 {
   max-width: 1000px;
   position: absolute;
   margin-left: 200px;
-  margin-top: -570px;
+  margin-top: -400px;
   animation-duration: 500ms;
 }
