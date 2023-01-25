@@ -186,7 +186,7 @@ h2 {
   
 }
 .fish5{
-  margin-left:  400px;
+  margin-left: 800px;
   margin-top: -630px;
   position: absolute;
   animation-duration: 1000ms;
@@ -197,4 +197,59 @@ h2 {
   margin-left: 200px;
   margin-top: -400px;
   animation-duration: 500ms;
+}
+.box {
+  border: 3px solid rgba(255, 255, 255, 0.808);
+  height: 400px;
+  width: 1140px;
+  margin-left: 360px;
+  margin-top: -500px;
+  
+}
+.notes1{
+  margin-top: -300px;
+  margin-left: 50px;
+}
+.talk{
+  max-width: 1100px;
+  text-align: justify;
+  font-size: 22px;
+  margin-left: 410px;
+  margin-top: 50px;
+  font-style: italic;
+}
+.bullet{
+  max-width: 1100px;
+  text-align: justify;
+  font-size: 22px;
+  margin-left: 410px;
+  margin-top: 50px;
+  border: 3px solid rgba(163, 153, 153, 0.5);
+  width: 370px;
+  
+}
+.changecolor li a{
+  color: rgb(231, 197, 110);
+  filter: brightness(60%);
+}
+.changecolor li a:hover{
+  color: rgb(243, 243, 24);
+  filter: brightness(100%);
+}
+ul:hover{
+  color: rgb(243, 243, 24);
+}
+.picsquare{
+  border: 3px solid rgba(163, 153, 153, 0.5);
+  width: 1140px;
+}
+.changeh2{
+  color:yellow ;
+  
+}
+.changeh1{
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  color: #0b0c10;
 }
