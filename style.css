@@ -187,16 +187,16 @@ h2 {
   
 }
 .fish5{
-  margin-left: 50%;
-  margin-top: -38%;
+  margin-left: 800px;
+  margin-top: -630px;
   position: absolute;
   animation-duration: 1000ms;
 }
 .fish6{
   max-width: 1000px;
   position: absolute;
-  margin-left: 10%;
-  margin-top: -28%;
+  margin-left: 200px;
+  margin-top: -500px;
   animation-duration: 500ms;
 }
 .navbar a:hover{
@@ -249,9 +249,6 @@ h2 {
 }
 ul:hover{
   color: rgb(243, 243, 24);
-}
-li{
- color: white;
 }
 
 
