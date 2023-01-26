@@ -1,285 +1,183 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PATCH 13.1B NOTES</title>
+    <link href="Patch13.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet" />
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <title>Team 1 Website</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
-    <script src="scroll.js"></script>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-    <!-- Google Fonts Roboto -->
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
-    <!-- MDB -->
-    <link rel="stylesheet" href="css/mdb.min.css" />
-
 </head>
 
-<body style="background-color: #0b0c10;">
-    <div id="navbar">
-        <nav class="navbar navbar-expand-lg ">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"> <img src="pic/Logo-removebg-preview.png" alt="Bootstrap"
-                        width="100" height="100"></a>
-                <img src="pic/LOL Logo clear background.png" alt="Bootstrap" width="70" height="70"><a
-                    style="color: white;">League Of Legend</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 75vh;">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html"
-                                style="margin-right: 10px;">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false" style="color: white;">
-                                News
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="LeagueOfLegend.html" style="text-align: left;"><img
-                                            src="pic/LOL Logo clear background.png" alt="Bootstrap" width="40"
-                                            height="40">League Of Legend</a></li>
-                                <li><a class="dropdown-item" href="TfT.html" style="text-align: left;"><img
-                                            src="pic/tft logo.png" alt="Bootstrap" width="40" height="40">Teamfight
-                                        Tactics</a>
-                                </li>
-                                <li><a class="dropdown-item" href="LoR.html" style="text-align: left;"><img
-                                            src="pic/Runterra Logo.png" alt="Bootstrap" width="40" height="40">Legend of
-                                        Runterra</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="aboutUs.html" style="margin-right: 10px; color: white">About
-                                us</a>
-                        </li>
-
-
-                    </ul>
-                </div>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <div class="pageinfo">
+                <a class="navbar-brand" href="index.html"><img src="pic/logo.png" class="logoimg" alt="Bootstrap"
+                        width="70px" height="70px"></a>
+                <img src="pic/LOL Logo clear background.png" class="pageimg" alt="Bootstrap" width="50px"
+                    height="50px"><a style="color: white;" class="pagename" href="#">League Of Legend</a>
             </div>
-        </nav>
-    </div>
-
-    <div class="fish "><img src="pic/Blur Jinx and Vi.jpg" alt="" height="650px" width="100%"></div>
-    <div class="card mb-3 fishes animate__animated animate__fadeIn" style="max-width: 1100px;margin: auto;">
-        <img src="pic/Jinx and Vi.jpg" class="card-img-top" alt="..." style="width: 1100px;">
-        <div class="card-body">
-            <h5 class="card-title">
-                PATCH 13.1B NOTES</h5>
-            <p class="card-text" style="font-size: 15px; color: black;text-align: center;">Happy (belated) Lunar New
-                Year! Mark(smen) your calendars because patch 13.1B has tons of damage ADC adjustments! </p>
-            <div class="container text-center">
-                <div class="row">
-                    <div class="card-text col-8" style="margin-left: -250px;"><small class="text-muted ">Author: Tuan
-                            Dang</small></div>
-                    <div class="card-text col-4" style="margin-left: 250px;"><small class="text-muted">Written on
-                            22/01/2023</small></div>
-                </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
+                    <li class="nav-item">
+                        <a class="nav-link home" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            News
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="LeagueOfLegend.html" style="text-align: left;"><img
+                                        src="pic/LOL Logo clear background.png" alt="Bootstrap" width="40"
+                                        height="40">League of legends</a></li>
+                            <li><a class="dropdown-item" href="#" style="text-align: left;"><img src="pic/tft logo.png"
+                                        alt="Bootstrap" width="40" height="40">Teamfight
+                                    Tactics</a></li>
+                            <li><a class="dropdown-item" href="LoR.html" style="text-align: left;"><img
+                                        src="pic/Runterra Logo.png" alt="Bootstrap" width="40" height="40">Legend of
+                                    Runterra</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link about-us" href="aboutUs.html">About Us</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </div>
-
-
+    </nav>
     <section>
-        <div class="notes1">
-            <div class="box">
-                <p style="max-width: 1100px;text-align: justify;font-size: 22px;margin-left: 12px;margin-top: 50px;">
-                    Due to the recent social engineering attack, League's Patch 13.2 will not be deployed on 1/24 as
-                    planned. Riot's dev teams have been working hard over the last couple of days and have a hotfix
-                    prepared to be deployed on Thursday (1/26) that will have most of the content for both LoL and TFT.
-                </p>
-                <p style="max-width: 1100px;text-align: justify;font-size: 22px;margin-left: 12px;margin-top: 10px;">
-                    “We know this is disappointing but we believe we will have things repaired near the end of the week,
-                    which will allow us to remain on our regular patch cadence going forward.
-                </p>
-                <p style="max-width: 1100px;text-align: justify;font-size: 22px;margin-left: 12px;margin-top: 10px;">
-                    Again, there is no indication that any player data or personal information was compromised. Thank
-                    you so much for your patience and understanding.”
-                </p>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="talk">
-            <p>
-                “With that said, we’re one patch into the year and following up Preseason with some sweeping changes to
-                marksmen, their items, and fighter items. We also have a few pro-skewed nerfs to address the likes of
-                Lucian/Nami and Yuumi, Chemtech Drake buffs, new Lunar Gods skins, and an update to surrender voting.
-                See you on the Rift!
-            </p>
-            <p>
-                If ADC class adjustments are just too much to handle, you're welcome to cut class with the Gadgeteens
-                wreaking havoc over in the TFT patch notes here!”
-            </p>
-
-        </div>
-    </section>
-    <section class="move" style="margin-left: 30px;">
-        <div class="bullet" >
-            <h2>
-                PATCH 13.1B CONTENT
-            </h2>
-            <ul style="color: goldenrod;">
-                <div class="changecolor" style="margin-top: 20px;">
-                    <li style="margin-top: 12px;"><a href="#PATCH_HIGHLIGHT">PATCH HIGHLIGHT</a></li>
-                    <li style="margin-top: 12px;"><a href="#CHAMPIONS">CHAMPIONS</a></li>
-                    <li style="margin-top: 12px;"><a href="#ADC CLASS ADJUSTMENTS">ADC CLASS ADJUSTMENTS</a></li>
-                    <li style="margin-top: 12px;"><a href="#SYSTEM">SYSTEM</a></li>
-
+        <div class="article">
+            <div class="fish"><img src="pic/Blur Jinx and Vi.jpg" alt="yuummi blurred" height="auto" width="100%"></div>
+            <div class="card mb-3 fishes animate__animated animate__fadeIn"
+                style="width:80%;margin-left: auto; margin-right: auto; margin-top: auto;">
+                <img src="pic/Jinx and Vi.jpg" class="card-img-top" alt="yuumi">
+                <div class="card-body">
+                    <h5 class="card-title">PATCH 13.1B NOTES</h5>
+                    <p class="card-text" style="font-size: 20px; color: black;text-align: center;"><i>“Happy (belated) Lunar
+                        New Year! Mark(smen) your calendars because patch 13.1B has tons of ADC adjustments!”</p>
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="card-text col-8" style="text-align: left;"><small class="text-muted ">Author:
+                                    Tuan Dang</small></div>
+                            <div class="card-text col-4" style="text-align: right;"><small class="text-muted">Written on
+                                    25/01/2023</small></div>
+                        </div>
+                    </div>
                 </div>
-            </ul>
-        </div>
-    </section>
-    <section id="PATCH_HIGHLIGHT">
-        <h1 class="changeh1" style="max-width: 1100px;text-align: justify;margin-left: 410px;margin-top: 20px; ">PATCH
-            HIGHLIGHT</h1>
-        <h1 class="changeh2"
-            style="max-width: 1100px;text-align: justify;margin-left: 410px;margin-top: 45px;font-style: italic; ">PATCH
-            HIGHLIGHT </h1>
-        <div style="max-width: 1100px;text-align: justify; font-size: 22px;margin-left: 410px;margin-top: 80px; ">
-            <div class="picsquare" style="margin-top: -50px;">
-                <img src="pic/patch13B.jpg" alt="..." width="1100px">
             </div>
-        </div>
-    </section>
+            <div>
+                <p style="margin-top: -500px;filter: brightness(120%);"><i>
+                        “With that said, we’re one patch into the year and following up Preseason with some sweeping
+                        changes
+                        to marksmen, their items, and fighter items. We also have a few pro-skewed nerfs to address the
+                        likes of Lucian/Nami and Yuumi, Chemtech Drake buffs, new Lunar Gods skins, and an update to
+                        surrender voting. See you on the Rift!”</i>
+                </p>
+                <p style="text-align: right;filter: brightness(80%);"><i>LILU “RIOT RIRU” CABREROS</i></p>
+            </div>
+            <h3 style="color:goldenrod;;font-size: 45px; ">PATCH HIGHLIGHTS</h3>
+            <p>
+                <img src="pic/patch13B.jpg" width="100%">
+            </p>
+            <h3 style="color:goldenrod;;font-size: 45px; ">CHAMPIONS</h3>
+            <p>
+                <img src="pic/Gankplankfix.png" width="100%">
+            </p>
+            <p style="margin-top: 100px;">
+                <img src="pic/Hemerdiger.png" alt="lunar gala board" width="100%">
+            </p>
+            <p style="margin-top: 100px;"><img src="pic/Kassadin.png" width="100%"></p>
+            <p style="margin-top: 100px;"><img src="pic/Kindred.png" alt="lunar gala board" width="100%"></p>
 
-    </section>
-    <section id="CHAMPIONS">
-        <h1 class="changeh1" style="max-width: 1100px;text-align: justify;margin-left: 410px;margin-top: 10px; ">PATCH
-            HIGHLIGHT</h1>
-        <h1 class="changeh2"
-            style="max-width: 1100px;text-align: justify;margin-left: 410px;margin-top: 45px; font-style: italic;">
-            CHAMPIONS </h1>
-        <div style="max-width: 1100px;text-align: justify; font-size: 22px;margin-left: 410px;margin-top: 80px; ">
-            <div class="picsquare" style="margin-top: -50px;">
-                <img src="pic/Gankplankfix.png" alt="..." width="1134px">
-            </div>
-        </div>
-        <div style="max-width: 1100px;text-align: justify; font-size: 22px;margin-left: 410px;margin-top: 80px; ">
-            <div class="picsquare" style="margin-top: -50px;">
-                <img src="pic/Hemerdiger.png" alt="..." width="1134px">
-            </div>
-        </div>
-        <div style="max-width: 1100px;text-align: justify; font-size: 22px;margin-left: 410px;margin-top: 80px; ">
-            <div class="picsquare" style="margin-top: -50px;">
-                <img src="pic/Kassadin.png" alt="..." width="1134px">
-            </div>
-        </div>
-        <div style="max-width: 1100px;text-align: justify; font-size: 22px;margin-left: 410px;margin-top: 80px; ">
-            <div class="picsquare" style="margin-top: -50px;">
-                <img src="pic/Kindred.png" alt="..." width="1134px">
-            </div>
-        </div>
-    </section>
-
-    </section>
-    <section id="ADC CLASS ADJUSTMENTS">
-        <h1 class="changeh1" style="max-width: 1100px;text-align: justify;margin-left: 410px;margin-top: 10px; ">PATCH
-            HIGHLIGHT</h1>
-        <h1 class="changeh2"
-            style="max-width: 1100px;text-align: justify;margin-left: 410px;margin-top: 45px;font-style: italic; ">ADC
-            CLASS ADJUSTMENTS</h1>
-        <div class="notes1">
-            <div class="box" style="margin-top: 350px;height: 470px;">
-                <p style="max-width: 1100px;text-align: justify;font-size: 22px;margin-left: 12px;margin-top: 50px;">
+            <h3 style="color:goldenrod;;font-size: 45px; ">ADC CLASS ADJUSTMENTS</h3>
+            <div style="font-style: italic;">
+                <p>
                     “While AD Carries aren’t strictly weak, League has gotten faster and most of their best items have
-                    been pushed later into their builds over the years. We’re adjusting Infinity Edge and Navori
-                    Quickblades to make them available as second items so that ADCs can access their most important
-                    power spike earlier in the game.
+                    been
+                    pushed later into their builds over the years. We’re adjusting Infinity Edge and Navori Quickblades
+                    to
+                    make them available as second items so that ADCs can access their most important power spike earlier
+                    in
+                    the game.
                 </p>
-                <p style="max-width: 1100px;text-align: justify;font-size: 22px;margin-left: 12px;margin-top: 10px;">
-                    For those who find their team comp lacks proper peel, we’ve also buffed opt-in durability with a cheaper, shieldier Bloodthirster.
+                <p>
+                    For those who find their team comp lacks proper peel, we’ve also buffed opt-in durability with a
+                    cheaper, shieldier Bloodthirster.
                 </p>
-                <p style="max-width: 1100px;text-align: justify;font-size: 22px;margin-left: 12px;margin-top: 10px;">
-                    Finally, we’re alleviating late game mana constraints on several AD carries who frequently run Presence of Mind. These buffs should give those specific champions more room to run healthier options like Triumph or Overheal.
+                <p>
+                    Finally, we’re alleviating late game mana constraints on several AD carries who frequently run
+                    Presence
+                    of Mind. These buffs should give those specific champions more room to run healthier options like
+                    Triumph or Overheal.
                 </p>
-                <p style="max-width: 1100px;text-align: justify;font-size: 22px;margin-left: 12px;margin-top: 10px;">
-                    These changes will certainly add power to ADCs overall but we’re hoping this has an oversized effect on making the role funner to play.” 
+
+                <p>These changes will certainly add power to ADCs overall but we’re hoping this has an oversized effect
+                    on making the role funner to play.” </p>
+                <p>
+                    <img src="pic/Vocuckiem.png" width="100%">
                 </p>
-            </div>
-        </div>
-        <div style="max-width: 1100px;text-align: justify; font-size: 22px;margin-left: 410px;margin-top: 80px; ">
-            <div class="picsquare" style="margin-top: -50px;">
-                <img src="pic/Vocuckiem.png " alt="..." width="1134px">
-            </div>
-            <div class="picsquare" style="margin-top: 80px;">
-                <img src="pic/Navori.png " alt="..." width="1134px">
-            </div>
-            <div class="picsquare" style="margin-top: 80px;">
-                <img src="pic/HuyetKiem.png " alt="..." width="1134px">
-            </div>
-            <div class="picsquare" style="margin-top: 80px;">
-                <img src="pic/Ashe.png " alt="..." width="1134px">
-            </div>
-            <div class="picsquare" style="margin-top: 80px;">
-                <img src="pic/Caitlyn.png " alt="..." width="1134px">
-            </div>
-            <div class="picsquare" style="margin-top: 80px;">
-                <img src="pic/Ezreal.png " alt="..." width="1134px">
-            </div>
-            <div class="picsquare" style="margin-top: 80px;">
-                <img src="pic/Jhin.png " alt="..." width="1134px">
-            </div>
-            <div class="picsquare" style="margin-top: 80px;">
-                <img src="pic/Kai'sa.png " alt="..." width="1134px">
-            </div>
-        </div>
+                <p>
+                    <img src="pic/Navori.png" width="100%">
+                </p>
+                <p>
+                    <img src="pic/HuyetKiem.png" width="100%">
+                </p>
+                <p>
+                    <img src="pic/Ashe.png" width="100%">
+                </p>
+                <p>
+                    <img src="pic/Kai'sa.png" width="100%">
+                </p>
+                <p>
+                    <img src="pic/Jhin.png" width="100%">
+                </p>
+                <h3 style="color:goldenrod;;font-size: 45px; ">SYSTEM</h3>
+                <p>
+                    <img src="pic/Chemtech.png" width="100%">
+                </p>
+
     </section>
-</section>
-<section id="SYSTEM">
-    <h1 class="changeh1" style="max-width: 1100px;text-align: justify;margin-left: 410px;margin-top: 10px; ">PATCH
-        HIGHLIGHT</h1>
-    <h1 class="changeh2"
-        style="max-width: 1100px;text-align: justify;margin-left: 410px;margin-top: 45px;font-style: italic; ">SYSTEM </h1>
-    <div style="max-width: 1100px;text-align: justify; font-size: 22px;margin-left: 410px;margin-top: 80px; ">
-        <div class="picsquare" style="margin-top: -50px;">
-            <img src="pic/Chemtech.png" alt="..." width="1134px">
-        </div>
-    </div>
-</section>
-    <p
-        style="margin-bottom: 30px;margin-left: 420px;max-width: 1100px;text-align: justify;font-size: 20px;margin-right: 400px; margin-top: 100px;">
-        __________________________________________________________________________________________________________________
+
+    <p style="text-align: center;font-size: 1.2vw;width: 100%; margin-left: auto;margin-right: auto;">
+        ____________________________________________________________________________________________
     </p>
-    <p style="margin-left: 420px;max-width: 1100px;text-align: justify;font-size: 30px;margin-right: 400px;">
-        <b>About
-            the author</b>
-    </p>
+    <p style="margin-left: auto;width: 50%;text-align: justify;margin-right: auto;"><b>About
+            the author</b></p>
     <div class="card mb-3"
-        style="max-width: 1050px; border-radius: 20px;margin-left: 420px;margin-top: 20px; width:650px;">
+        style="border-radius: 20px;margin-left: auto;margin-top: 20px; width:50%;margin-right: auto;">
         <div class="row g-0">
             <div class="col-md-4">
-                <img src="pic/jerry.jpg" class="img-fluid rounded-start" alt="..." >
+                <img src="pic/jerry.jpg" class="img-fluid rounded-start" alt="..." height="800" width="900">
             </div>
             <div class="col-md-8">
                 <div class="card-body" style="text-align: justify;">
                     <h5 class="card-title" style="color: goldenrod;"><b>Beacon</b></h5>
-                    <p class="card-text" style="color: #0b0c10;">Real name: Dang Minh "Beacon" Tuan </p>
-                    <p class="card-text" style="color: #0b0c10;">Major: Computer Application at HAMK (BBCAP22A3)</p>
-                    <p class="card-text" style="color: #0b0c10;">Game I have played: CS:GO, LoL, Valorant, FIFA23
-                    </p>
+                    <p class="card-text" style="color: #0b0c10;margin: 0;">Real name: Dang Minh "Beacon" Tuan</p>
+                    <p class="card-text" style="color: #0b0c10;margin: 0;">Major: Computer Application at HAMK
+                        (BBCAP22A3)</p>
+                    <p class="card-text" style="color: #0b0c10;margin: 0;">Games I have played: DotA 2, CS:GO, LoL,
+                        World of Warcraft, Valorant, FIFA23</p>
                 </div>
             </div>
         </div>
     </div>
 
 
+    </div>
     <footer class="bg-dark text-center text-white" style="margin-top: 500px;">
         <!-- Grid container -->
         <div class="container p-4 pb-0">
@@ -307,7 +205,9 @@
         </div>
         <!-- Copyright -->
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+        </script>
     <script src="animation.js"></script>
 </body>
 
