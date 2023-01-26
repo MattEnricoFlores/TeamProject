@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PATCH 13.1B NOTES</title>
     <link href="Patch13.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -18,47 +19,53 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg sticky-top">
-        <div class="container-fluid">
-            <div class="pageinfo">
-                <a class="navbar-brand" href="index.html"><img src="pic/logo.png" class="logoimg" alt="Bootstrap"
-                        width="70px" height="70px"></a>
-                <img src="pic/LOL Logo clear background.png" class="pageimg" alt="Bootstrap" width="50px"
-                    height="50px"><a style="color: white;" class="pagename" href="#">League Of Legend</a>
+    <div id="navbar">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"> <img src="pic/logoFinal.png"  alt="Bootstrap"
+                        width="80" height="80"></a>
+                        <img src="pic/LOL Logo clear background.png" alt="Bootstrap"
+                            width="70" height="70"><a style="color: white;">League of Legends</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 75vh;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html"
+                                style="margin-right: 10px;">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" style="color: white;">
+                                News
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="LeagueOfLegend.html"
+                                        style="text-align: left; color: white;"><img src="pic/LOL Logo clear background.png"
+                                            alt="Bootstrap" width="40" height="40">League Of Legend</a></li>
+                                <li><a class="dropdown-item" href="TFT1.html" style="text-align: left; color: white;"><img
+                                            src="pic/tft logo.png" alt="Bootstrap" width="40" height="40">Teamfight
+                                        Tactics</a>
+                                </li>
+                                <li><a class="dropdown-item" href="LoR.html" style="text-align: left; color: white;"><img
+                                    src="pic/Runterra Logo.png" alt="Bootstrap" width="40" height="40">Legend of Runterra</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutUs.html" style="margin-right: 10px; color: white; font-family: Arial, Helvetica, sans-serif;">About
+                                us</a>
+                        </li>
+    
+    
+                    </ul>
+                </div>
             </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
-                    <li class="nav-item" >
-                        <a class="nav-link home" aria-current="page" href="index.html" style="margin-right: 10px;">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false" >
-                            News
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a class="dropdown-item" href="LeagueOfLegend.html" style="text-align: left;"><img
-                                        src="pic/LOL Logo clear background.png" alt="Bootstrap" width="40"
-                                        height="40">League of legends</a></li>
-                            <li><a class="dropdown-item" href="TFT1.html" style="text-align: left;"><img src="pic/tft logo.png"
-                                        alt="Bootstrap" width="40" height="40">Teamfight
-                                    Tactics</a></li>
-                            <li><a class="dropdown-item" href="LoR.html" style="text-align: left;"><img
-                                        src="pic/Runterra Logo.png" alt="Bootstrap" width="40" height="40">Legend of
-                                    Runterra</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link about-us" href="aboutUs.html">About Us</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
     <section>
         <div class="article">
             <div class="fish"><img src="pic/Blur Jinx and Vi.jpg" alt="yuummi blurred" height="auto" width="100%"></div>

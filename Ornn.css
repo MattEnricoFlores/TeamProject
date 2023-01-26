@@ -70,8 +70,10 @@
     background-color: #0b0c10 !important;
   }
   
-  h2 {
-    color: #C5C6C7 !important;
+  .article h2 {
+    color: goldenrod !important;
+    font-style: italic;
+    font-size: 35px;
   
   }
   
@@ -114,7 +116,7 @@
   
   .article h1, h2, p{
     margin-bottom: 30px;  
-    margin-left: 90px;
+    margin-left: 100px;
     margin-right: 100px; 
     text-align: justify; 
     font-size: 20px;
@@ -143,5 +145,13 @@
     color: black;
     font-size: 40px;
     text-align: center;
+  }
+  .article ul{
+    margin-bottom: 30px;  
+    margin-left: 110px;
+    margin-right: 120px; 
+    text-align: justify; 
+    font-size: 20px;
+    color:#C5C6C7;
   }
 
