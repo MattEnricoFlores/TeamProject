@@ -195,8 +195,8 @@ h2 {
 .fish6{
   max-width: 1000px;
   position: absolute;
-  margin-left: 200px;
-  margin-top: -400px;
+  margin-left: 10%;
+  margin-top: -25%;
   animation-duration: 500ms;
 }
 .navbar a:hover{
