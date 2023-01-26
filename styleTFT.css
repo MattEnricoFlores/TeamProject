@@ -201,7 +201,7 @@ nav{
     animation-duration: 500ms;
   }
   
-  .article h1, h2, p, ul{
+  .article h1, h2, p{
     margin-bottom: 30px;  
     margin-left: 100px;
     margin-right: 100px; 
