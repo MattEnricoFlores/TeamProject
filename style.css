@@ -250,5 +250,8 @@ h2 {
 ul:hover{
   color: rgb(243, 243, 24);
 }
+li{
+ color: white;
+}
 
 
