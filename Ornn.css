@@ -112,7 +112,7 @@
     animation-duration: 500ms;
   }
   
-  .article h1, h2, p, ul{
+  .article h1, h2, p{
     margin-bottom: 30px;  
     margin-left: 90px;
     margin-right: 100px; 
@@ -144,4 +144,4 @@
     font-size: 40px;
     text-align: center;
   }
-  
+
