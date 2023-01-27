@@ -175,6 +175,17 @@ h2 {
   height:auto;
 }
 
+.container1 {
+  text-align: center;
+}
+
+.container1 p {
+  margin-left: 100px;
+  margin-right: 100px;
+  max-width: 1100px;
+}
+
+
 .fish4{
   position: relative;
   filter: brightness(50%);
